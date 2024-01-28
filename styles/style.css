@@ -256,7 +256,8 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 .content__video-card-title {
   width: 200px;
   overflow: hidden;
-  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
